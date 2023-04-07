@@ -15,10 +15,35 @@
         <h2>Library Books</h2>
     </div>
     <div class="body-section">
-        <div class="books-container">
-            <div class="book-card">
-                <h3>Book Title</h3>
+        <button class="add-books">New book</button>
+        <div class="form-bg">
+            <div class="add-book-form">
+                <form>
+                    <label for="bookName">Book Name</label>
+                    <input type="text">
+                    <label for="author">Author Name</label>
+                    <input type="text">
+                    <label for="genre">Genre</label>
+                    <select name="genre" id="genre">
+                        <option value="horror">Horror</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="self-help">Self Help</option>
+                        <option value="biography">Biography</option>
+                    </select>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
+        </div>
+        <div class="books-container">
+            <!-- <div class="book-card" data="">
+                <h3>Book Title</h3>
+                <div class="book-options">
+                    <div class="delete-button"><img src="assets/delete-logo.png" alt="delete-button" srcset=""></div>
+                    <div class="read-status">Read</div>
+                </div>
+            </div> -->
         </div>
     </div>
     <div class="footer-section">
