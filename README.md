@@ -1,6 +1,9 @@
 # odin-project-library
 
-This is learning project built on the following requirments/instructions, link to which is [here](https://www.theodinproject.com/lessons/node-path-javascript-library):-
+Finished Project according to below requirments.
+![](https://github.com/Paras14/odin-project-library/blob/main/chrome_vY58MyHbLk.gif)
+
+This is a learning project built on the following requirments/instructions provided by the "TheOdinProject" self-learning course, link to which is [here](https://www.theodinproject.com/lessons/node-path-javascript-library):-
 
 1. If you haven’t already, set up your project with skeleton HTML/CSS and JS files.
 
@@ -27,8 +30,3 @@ You will need to associate your DOM elements with the actual book objects in som
         To facilitate this you will want to create the function that toggles a book’s read status on your Book prototype instance.
 
 NOTE: **You’re not required to add any type of storage right now. You will have the option to come back to this project later on in the course**.
-
-
-
-Finished Project according to above requirments.
-![](https://github.com/Paras14/odin-project-library/blob/main/chrome_vY58MyHbLk.gif)
