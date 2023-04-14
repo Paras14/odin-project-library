@@ -1,3 +1,17 @@
+class Book {
+    constructor(bookName, author, genre, readStatus = false) {
+        this.bookName = bookName;
+        this.author = author;
+        this.genre = genre;
+        this.readStatus = readStatus;
+    }
+
+    toogleReadStatus(){
+        this.readStatus = !this.readStatus
+    }
+
+}
+
 //Books object array
 let myLibrary = [
    new Book('That Book', 'That Author', 'comedy', false),
@@ -27,17 +41,18 @@ let myLibrary = [
 // let booksStatus = [false, true, false];
 
 //Book Constructor, not in use currently
-function Book(bookName, author, genre, readStatus = false) {
-    this.bookName = bookName;
-    this.author = author;
-    this.genre = genre;
-    this.readStatus = readStatus;
+// function Book(bookName, author, genre, readStatus = false) {
+//     this.bookName = bookName;
+//     this.author = author;
+//     this.genre = genre;
+//     this.readStatus = readStatus;
 
-}
+// }
 
-Book.prototype.toogleReadStatus = function(){
-    this.readStatus = !this.readStatus
-}
+// Book.prototype.toogleReadStatus = function(){
+//     this.readStatus = !this.readStatus
+// }
+
 
 //To add books in the myLibrary object array, currently not in use
 function addBookToLibrary(bookName, author, genre, readStatus = false){
